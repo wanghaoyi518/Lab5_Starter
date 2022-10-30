@@ -124,15 +124,15 @@ function init() {
 
           const resultPic = document.querySelector("img");
           resultPic.src = "assets/images/smiling-open.png";
-            console.log("a");
-          resultPic.addEventListener('load', () => {
-            // execute drawImage statements here
-            resultPic.src = "assets/images/smiling-open.png";
-            console.log("a2");
-          },true);
-          resultPic.src = "assets/images/smiling-open.png";
-            console.log("a3");
-          resultPic.src = "assets/images/smiling-open.png";
+            //console.log("a");
+          // resultPic.addEventListener('load', () => {
+          //   // execute drawImage statements here
+          //   resultPic.src = "assets/images/smiling-open.png";
+          //   console.log("a2");
+          // },true);
+          // resultPic.src = "assets/images/smiling-open.png";
+          //   console.log("a3");
+          // resultPic.src = "assets/images/smiling-open.png";
           break;
         }
       }
@@ -188,7 +188,7 @@ function init() {
 
     inputTxt.blur();
     const resultPic = document.querySelector("img");
-          resultPic.src = "assets/images/smiling.png";
+          //resultPic.src = "assets/images/smiling.png";
             //console.log("a")
     //resultPic.src = "assets/images/smiling.png";
     
@@ -204,7 +204,7 @@ function init() {
     //resultPic.src = "assets/images/smiling-open.png";
     //resultPic.sh
     //console.log("2");
-    speak();
+    //speak();
     const resultPic = document.querySelector("img");
           resultPic.src = "assets/images/smiling.png";
             //console.log("a")
